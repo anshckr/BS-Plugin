@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>BS Plugin</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+</head>
+
+<body>
+    <div class="devices" style="width: 700px">
+        <select class="devices__type">
+            <option value="" selected>Select Device Type</option>
+        </select>
+        <select class="devices__os">
+            <option value="" selected>Select an OS</option>
+        </select>
+        <select class="devices__gadget">
+            <option value="" selected></option>
+        </select>
+    </div>
+    <form method="get" id="url-form">
+        Enter the URL to test:
+        <input type="url" name="test-url">
+    </form>
+    <button type="submit" form="url-form" value="Submit">Submit</button>
+</body>
+
+</html>
